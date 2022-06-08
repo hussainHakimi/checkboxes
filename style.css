@@ -17,12 +17,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin:auto;
+  /* margin:auto; */
   color: #000;
   position: absolute;
   top: 60px;
-  left: 0;
-  right: 0;
+  left: 30%;
 }
 
 .box ul{
@@ -38,8 +37,17 @@
   border: 1px solid #ccc;
   display: flex;
   justify-content: space-between;
+  /* text-decoration: line-through; */
 }
 .box ul li span{
   width: 70%;
   height: 100%;
+}
+
+.spn{
+  text-decoration: line-through;
+}
+
+input:checked + span {
+  text-decoration: line-through;
 }
